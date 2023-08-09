@@ -136,14 +136,7 @@ const getStudentsByCategory = async (category, res) => {
         },
       },
     });
-    const studentsWithCategory = students.map((student) => {
-      return {
-        ...student.toJSON(),
-        category,
-      };
-    });
-
-    return studentsWithCategory;
+    return students;
   } catch (err) {
     res
       .status(500)
