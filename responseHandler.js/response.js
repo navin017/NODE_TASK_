@@ -122,7 +122,7 @@ const category = async (req, res) => {
 module.exports = {
     showStudents: showStudents,
     getOne: getOne,
-    destroy: destroy,
+    destroy: destroy
     update: update,
     category: category,
     create: create,
