@@ -129,4 +129,4 @@ module.exports = {
     showEntri: showEntri
 };
 
-// EveryThing is running peacefully
+// EveryThing is running peacefully...........
